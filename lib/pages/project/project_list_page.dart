@@ -141,7 +141,7 @@ class _ProjectListPageState extends State<ProjectListPage> {
                             height: 15.0,
                             margin: EdgeInsets.symmetric(
                                 vertical: 5.0, horizontal: 0.0),
-                            color: Colors.black12,
+                            color: Colors.greenAccent,
                           ),
                         ),
                       ],
