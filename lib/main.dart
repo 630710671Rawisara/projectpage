@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projectpage/models/project.dart';
 import 'package:projectpage/pages/project/project_list_page.dart';
+import 'package:projectpage/pages/project/project_details_page.dart';
 
 void main() {
   runApp(const MyApp());

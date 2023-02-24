@@ -6,14 +6,20 @@ class Project {
   final int receiveAmount; //จำนวนเงินที่ได้รับบริจาคมาแล้ว
   final int donateCount; //จำนวนครั้งที่บริจาคมา
   final String imgeURL; //URL ของภาพปก
+  final String longscript; //รายละเอียดโครงการ
+  final String timeProject; //ระยะเวลาโครงการ
+  final String area; //พื้นที่ดำเนินการ
 
-  Project(
-      {required this.title,
-      required this.description,
-      required this.targetAmount,
-      required this.duration,
-      required this.receiveAmount,
-      required this.donateCount,
-      required this.imgeURL,
-      });
+  Project({
+    required this.title,
+    required this.description,
+    required this.targetAmount,
+    required this.duration,
+    required this.receiveAmount,
+    required this.donateCount,
+    required this.imgeURL,
+    required this.longscript,
+    required this.timeProject,
+    required this.area,
+  });
 }
